@@ -1,17 +1,21 @@
 package lecture4;
 
+public class Task3 {
+
+    public static void main(String[] args) {
+        int[] numbers = {61, 22, 346, 32, 432, 645, 28, 23, 46, 48, 21, 66, 62};
+        Statistics statistics = new Statistics();
+        statistics.minValue(numbers);
+        statistics.maxValue(numbers);
+        statistics.averageValue(numbers);
+    }
+}
+
+//
+//        import java.util.Arrays;
+//        import java.util.Random;
 //public class Task3 {
 
-//    public static void main(String[] args) {
-//        int[] numbers = {61, 22, 346, 32, 432, 645, 28, 23, 46, 48, 21, 66, 62};
-//        Statistics statistics = new Statistics();
-//        statistics.minValue(numbers);
-//        statistics.maxValue(numbers);
-//        statistics.averageValue(numbers);
-//    }
-
-//public class Task3 {
-//import java.util.Random;
 //
 //    public class Task3 {
 //

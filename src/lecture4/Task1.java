@@ -19,10 +19,6 @@ public class Task1 {
         result[0] = variable1;
         result[1] = variable2;
         result[2] = variable3;
-
-
         System.out.println("My variables are " + Arrays.toString(result));
-
-
     }
 }

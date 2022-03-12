@@ -6,7 +6,6 @@ public class NoiseDetector {
         int noiseLevel = 70;
         noiseDetector(noiseLevel);
     }
-
     public static void noiseDetector(int noiseLevel) {
         if (noiseLevel < 39) {
             System.out.println("Faint");

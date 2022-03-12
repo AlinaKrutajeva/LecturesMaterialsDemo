@@ -3,6 +3,10 @@ package lecture3;
 public class BankProgram {
     private int bankBalance = 0;
 
+    public void checkBalance(){
+        System.out.println(bankBalance);
+    }
+
     public void deposit(int amount) {
         if (amount >= 10000) {
             System.out.println("Need to register sum in VID");
