@@ -15,5 +15,4 @@ public class BallGameDemo {
 //      Computer show the answer = where was the ball
 //      if person guessed - write You have won else you lose!!
     }
-
 }
