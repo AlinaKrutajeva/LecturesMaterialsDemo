@@ -12,7 +12,7 @@ public class CorrectGuessingGame {
         Scanner scanner = new Scanner(System.in);
 
         boolean gameInProgress = true;
-        while (gameInProgress == true) {
+        while (gameInProgress) {
             int computerGuess = random.nextInt(minValue, maxValue+1);
             System.out.println("Computer guess is: " + computerGuess + "\nIf number is too big, enter - 1, " +
                     "too small - 2, same number - 0.");
@@ -29,7 +29,6 @@ public class CorrectGuessingGame {
             } else {
                 System.out.println("Invalid input! Please, try again!");
             }
-
         }
     }
 }
